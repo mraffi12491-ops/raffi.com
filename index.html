@@ -395,18 +395,19 @@
         <section id="media">
             <h2><i class="fa-solid fa-photo-film"></i> Media Presentasi & Video Tutorial</h2>
             
-            <!-- Download & View PPT -->
+            <!-- Download & View PPT / Slide HTML -->
             <div class="ppt-wrapper">
-                <h3>Presentasi Materi (PPTX)</h3>
-                <p>Klik tombol di bawah ini untuk mengunduh slide presentasi, atau lihat pratinjau langsung di bawahnya.</p>
+                <h3>Presentasi Materi Jaringan Komputer</h3>
+                <p>Lihat slide presentasi interaktif langsung di bawah ini atau buka di tab baru.</p>
                 <br>
-                <a href="presentasi.pptx" download class="btn-download"><i class="fa-solid fa-download"></i> Download PPT (presentasi.pptx)</a>
+                <a href="presentasi.html" target="_blank" class="btn-download">
+                    <i class="fa-solid fa-expand"></i> Buka Slide Fullscreen
+                </a>
                 
-                <!-- Microsoft Office Online Viewer Embed -->
-                <iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://example.com/presentasi.pptx" class="ppt-frame" frameborder="0">
-                    Browser Anda tidak mendukung iframe untuk PPT. Silakan unduh file melalui tombol di atas.
+                <!-- Embed Slide HTML -->
+                <iframe src="presentasi.html" class="ppt-frame" frameborder="0" style="width: 100%; height: 550px; border-radius: 10px; border: 1px solid var(--accent-blue);">
+                    Browser Anda tidak mendukung iframe. Silakan klik tombol di atas untuk membuka slide.
                 </iframe>
-                <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 5px;">*Pratinjau PPT bekerja maksimal saat website sudah di-hosting secara online.</p>
             </div>
 
             <br><hr style="border-color: rgba(255,255,255,0.1);"><br>
